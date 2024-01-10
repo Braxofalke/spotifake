@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotifake</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="sidebar">
+        <ul>
+            <li class="active"><img src="./assets/accueil.png" alt="Home Icon">Home</li>
+            <li><img src="assets/search.png" alt="Search Icon">Search</li>
+            <li><img src="assets/library.png" alt="Library Icon">Your Library</li>
+        </ul>
+    </div>
+
+    <div class="main-content">
+        <div class="artist-banner">
+            <div class="artist-name-banner">Todd Howard</div>
+            <div class="navigation-controls">
+                <button class="icon-navigation-back-button nav-back-button" title="Back"></button>
+                <button class="icon-navigation-forward-button nav-forward-button" title="Forward"></button>
+            </div>
+
+            <div class="account-controls">
+                <button class="button icon-settings-button settings-button" title="Settings"></button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="control-bar">
+        <div class="now-playing">
+            <img src="./assets/flrftw.png" alt="Album Cover" class="album-cover"/>
+            <div class="song-info">
+                <div class="song-title">It Just Works</div>
+                <div class="artist-name">Todd Howard</div>
+            </div>
+        </div>
+        <div class="playback-controls">
+            <button class="control-button prev">Prev</button>
+            <button class="control-button play">Play</button>
+            <button class="control-button next">Next</button>
+        </div>
+        <div class="volume-controls">
+            <button class="control-button volume-down">Vol -</button>
+            <label>
+                <input type="range" min="0" max="100" value="50" class="volume-bar">
+            </label>
+            <button class="control-button volume-up">Vol +</button>
+        </div>
+    </div>
+
+</body>
+</html>
