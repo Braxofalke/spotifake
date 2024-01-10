@@ -47,69 +47,21 @@ body {
     margin-right: 20px;
 }
 
-.icon-navigation-back-button {
-    position: absolute;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 33px;
-    height: 33px;
-    background-size: 21px 21px;
-    border-radius: 50%;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    top: 20px;
-    left: 20px;
-}
-
-.icon-navigation-forward-button {
-    position: absolute;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 33px;
-    height: 33px;
-    background-size: 21px 21px;
-    border-radius: 50%;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    top: 20px;
-    left: 60px;
-}
-
-.icon-settings-button {
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 31px;
-    height: 31px;
-    background-size: 23px 23px;
-    border-radius: 50%;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.nav-back-button {
-    background-image: url('./assets/icons/arrow_back_ios_FILL0_wght400_GRAD0_opsz24.svg');
-}
-
-.nav-forward-button {
-    background-image: url('./assets/icons/arrow_forward_ios_FILL0_wght400_GRAD0_opsz24.svg');
-}
-
-.settings-button {
-    background-image: url('./assets/icons/settings_FILL0_wght400_GRAD0_opsz24.svg');
-}
-
-.icon-navigation-back-button:hover {
-    background-color: #282828;
-}
-
-.icon-navigation-forward-button:hover {
-    background-color: #282828;
-}
 
 .main-content {
     margin-left: 233px;
     padding: 15px;
 }
+
+.nav-button-back {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
 
 .artist-banner {
     font-family: 'Gotham', sans-serif;
