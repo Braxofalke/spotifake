@@ -1,13 +1,13 @@
 @font-face {
     font-family: 'Circular';
-    src: url('./assets/spotify font/Circular/CircularStd-Book.otf') format('opentype');
+    src: url('assets/spotifyFont/Circular/CircularStd-Book.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Circular';
-    src: url('./assets/spotify font/Circular/CircularStd-Black.otf') format('opentype');
+    src: url('assets/spotifyFont/Circular/CircularStd-Black.otf') format('opentype');
     font-weight: bold;
     font-style: normal;
 }
@@ -303,7 +303,7 @@ body {
 }
 
 .volume-bar {
-    -webkit-appearance: none; /*apparence par défaut réécrite*/
+    -webkit-appearance: none;
     appearance: none;
     background: #535353;
     border-radius: 2px;
