@@ -236,22 +236,22 @@ body {
 
 .song-item {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    align-items: start;
+    justify-content: space-evenly;
     padding: 10px 0;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .track-number-container,
 .song-details-container,
 .song-duration-container,
 .listener-count-container {
+    justify-self: start;
     display: flex;
     align-items: center;
 }
 
 .track-number {
-    margin-right: 15px; /* Adjust space between track number and title */
+    margin-right: 15px;
 }
 
 .song-title-list {
@@ -263,7 +263,6 @@ body {
 }
 
 .listener-count {
-    font-size: 0.8em;
     color: #b3b3b3;
     white-space: nowrap;
 }
