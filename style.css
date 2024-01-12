@@ -218,6 +218,57 @@ body {
     margin-left: 247px;
 }
 
+.popular-songs-container {
+    color: #fff;
+    margin: 20px;
+}
+
+.section-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.popular-songs-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.song-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.track-number-container,
+.song-details-container,
+.song-duration-container,
+.listener-count-container {
+    display: flex;
+    align-items: center;
+}
+
+.track-number {
+    margin-right: 15px; /* Adjust space between track number and title */
+}
+
+.song-title-list {
+    font-weight: bold;
+}
+
+.song-duration {
+    color: #b3b3b3;
+}
+
+.listener-count {
+    font-size: 0.8em;
+    color: #b3b3b3;
+    white-space: nowrap;
+}
+
+
 .control-bar {
     background-color: #000;
     position: fixed;
@@ -246,19 +297,19 @@ body {
     border-radius: 4px;
 }
 
-.now-playing .song-info {
+.now-playing .song-info-playing {
     display: flex;
     flex-direction: column;
     margin-left: 4px;
 }
 
-.now-playing .song-info .song-title {
+.now-playing .song-info .song-title-playing {
     font-size: 0.9em;
     color: #fff;
     margin-bottom: 2px;
 }
 
-.now-playing .song-info .artist-name {
+.now-playing .song-info-playing .artist-name {
     font-size: 0.7em;
     color: #b3b3b3;
 }
